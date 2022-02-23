@@ -210,9 +210,9 @@ namespace Connect_4
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("■■■■■■■■■■■■■■■■■■■");
             Console.WriteLine($" ");
-            for (int i = 0; i < 7; i++)
+            for (int i = 1; i < 8; i++)
             {
-                Console.Write($"{i} ");
+                Console.Write($"  {i}");
             }
             Console.WriteLine($"");
             Console.WriteLine($"{Coin.Green.ToString()} score is '{GetScore(Coin.Green)}'\n{Coin.Red.ToString()} score is '{GetScore(Coin.Red)}'");
